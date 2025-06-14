@@ -28,12 +28,12 @@ sections of T4 preview (or live) pages. It categorises, highlights and logs them
 
 ## Link categories and highlight colours
 
-* St Andrews links – Links to `*.st-andrews.ac.uk` (excluding t4live).
-* T4 links – Links to other pages in T4 preview (e.g. https://t4live.st-andrews.ac.uk/...).
-* External links – Links to domains outside st-andrews.ac.uk, including valid mailto: and tel: addresses.
-* Relative links – Links using relative paths (e.g. /students/).
-* Anchor links – Links starting with # that point to on-page IDs.
-* Malformed tel: links – Telephone links containing spaces or %20.
+* BLUE: St Andrews links – Links to `*.st-andrews.ac.uk` (excluding t4live).
+* RED: T4 links – Links to other pages in T4 preview (e.g. https://t4live.st-andrews.ac.uk/...).
+* YELLOW: External links – Links to domains outside st-andrews.ac.uk, including valid mailto: and tel: addresses.
+* BLACK: Relative links – Links using relative paths (e.g. /students/).
+* BLACK: Anchor links – Links starting with # that point to on-page IDs.
+* ORANGE: Malformed tel: links – Telephone links containing spaces or %20.
 
 ## Supported file types
 
@@ -52,8 +52,8 @@ Links to these file types are styled according to their domain: St Andrews (blue
 
 ## Extra highlighting
 
-* Email: mailto:@st-andrews.ac.uk → St Andrews (blue)
-* Email: mailto:@ any other domain → External (yellow)
+* Email: mailto: @st-andrews.ac.uk → St Andrews (blue)
+* Email: mailto: @ any other domain → External (yellow)
 * Phone: tel: links → External (yellow) with telephone icon
 * Phone: tel: links with spaces or %20 → Highlighted in orange with telephone icon
 
