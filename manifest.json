@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "T4 Preview Link Auditor",
+  "description": "Audits and highlights links in T4 preview pages.",
+  "version": "1.13.1",
+  "homepage_url": "https://www.digitalshed45.co.uk/t4-preview-links-audit.zip",
+  "permissions": ["scripting", "activeTab"],
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["icons/*.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
