@@ -15,7 +15,7 @@ sections of T4 preview (or live) pages. It categorises, highlights and logs them
 
 ## How to install
 
-1. **Download**: Download the extension zip file.
+1. **Download**: Click the green `Code` button and from the dropdown select Download ZIP.
 2. **Unzip**: Extract the contents of the zip file to a folder on your computer.
 3. **Open Chrome Extensions**: In Google Chrome, go to `chrome://extensions/`.
 4. **Enable Developer Mode**: Use the toggle in the top right corner to turn on Developer Mode.
